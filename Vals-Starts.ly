@@ -220,7 +220,7 @@
     \key d \major
     %\partial 4
 
-    a'4 g fis8 e d4 b g'
+    a'4 g fis8 e d4 b
   } 
   \layout { indent = 1\cm }
   \midi {}
