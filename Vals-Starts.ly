@@ -220,7 +220,143 @@
     \key d \major
     %\partial 4
 
-    a'4 g fis8 e d4 b
+    a'4 g fis8 e d4 b g' b, g' 
+  } 
+  \layout { indent = 1\cm }
+  \midi {}
+}
+
+\markup { Jaybird }
+\score {
+  \relative c'' {
+    \clef treble
+    \time 4/4
+    \key d \major
+    %\partial 4
+
+    fis4 d2 e4 fis8 e fis g a2 
+  } 
+  \layout { indent = 1\cm }
+  \midi {}
+}
+
+\markup { Rock the Cradle Joe }
+\score {
+  \relative c'' {
+    \clef treble
+    \time 4/4
+    \key d \major
+    \partial 4
+
+    fis8 g | a4 a fis8 e fis g 
+  } 
+  \layout { indent = 1\cm }
+  \midi {}
+}
+
+\markup { Spring Creek }
+\score {
+  \relative c'' {
+    \clef treble
+    \time 4/4
+    \key d \major
+    %\partial 4
+
+    fis4 a a8 b a fis e4 d2.   
+  } 
+  \layout { indent = 1\cm }
+  \midi {}
+}
+
+\markup { Setauket }
+\score {
+  \relative c'' {
+    \clef treble
+    \time 4/4
+    \key d \major
+    %\partial 4
+
+     fis,8 g a fis d4. e'8 fis4 e8 fis4 e b
+  } 
+  \layout { indent = 1\cm }
+  \midi {}
+}
+
+\markup { Susanna Gal }
+\score {
+  \relative c'' {
+    \clef treble
+    \time 4/4
+    \key d \major
+    \partial 4
+
+    e4 fis8 d e cis d4 b8 cis d b a g fis4  
+  } 
+  \layout { indent = 1\cm }
+  \midi {}
+}
+
+\markup { Yellow Barber }
+\score {
+  \relative c'' {
+    \clef treble
+    \time 4/4
+    \key d \major
+    %\partial 4
+
+    <d, a>4 <d a> <d a> <d a> | <d a> d8 e fis e d4
+  } 
+  \layout { indent = 1\cm }
+  \midi {}
+}
+
+\markup { Porters Reel }
+\score {
+  \relative c'' {
+    \clef treble
+    \time 4/4
+    \key d \major
+    \partial 4
+    a8 b d b a fis e fis fis fis 
+  } 
+  \layout { indent = 1\cm }
+  \midi {}
+}
+
+\markup { Grey Owl }
+\score {
+  \relative c'' {
+    \clef treble
+    \time 4/4
+    \key d \major
+    \partial 4
+    d,8 b a b d e fis e d b  
+  } 
+  \layout { indent = 1\cm }
+  \midi {}
+}
+
+\markup { Step Around Johnny }
+\score {
+  \relative c'' {
+    \clef treble
+    \time 4/4
+    \key d \major
+    \partial 4
+    a8 b | d4 d b8 cis d b a fis e fis d2 
+  } 
+  \layout { indent = 1\cm }
+  \midi {}
+}
+
+\markup { Moonlight }
+\score {
+  \relative c'' {
+    \clef treble
+    \time 4/4
+    \key d \major
+    %\partial 4
+    fis2. g4 fis8 e d a b a b cis d
   } 
   \layout { indent = 1\cm }
   \midi {}
