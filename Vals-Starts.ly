@@ -10,10 +10,12 @@
 \score {
   \relative c'' {
     \clef treble
-    %\time 4/4
+    \time 4/4
     \key a \major
     c4. d8 c b a b | c b a b a f e4 |   
-  } 
+  }
+  \layout { indent = 1\cm }
+  \midi {}
 }
 
 \markup { Road to Malvern }
@@ -49,12 +51,13 @@
   } 
 }
 
-\markup { Sweet Nell }
+\markup { Tipping Back the Corn }
 \score {
-  \relative c' {
+  \relative c'' {
     \clef treble
     \time 4/4
     \key a \major
-    e4 a a8 b c a | b c d b c2 |
+    \partial 4
+    e8 f | a g f e 
   } 
 }
