@@ -6,36 +6,55 @@
 \include "english.ly"
 \layout { indent = 0.0\cm }
 
-\markup { Subsection 1 }
-
-
+\markup { Merriweather }
 \score {
-  \relative c' {
+  \relative c'' {
     \clef treble
-    \time 3/4
+    %\time 4/4
     \key a \major
-    c d e  f g a  b c d  e f g    
+    c4. d8 c b a b | c b a b a f e4 |   
   } 
 }
 
-\markup { Subsection 2 }
+\markup { Road to Malvern }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \clef treble
-    \time 3/4
-    \key c \major
-    c d e  f g a  b c d  e f g    
+    \time 4/4
+    \key a \major
+    \partial 4
+  c8 d | e f e d c b a b | c b a e f4 e8 f|
   } 
 }
 
-\markup { Subsection 3 }
+\markup { Obama's March }
+\score {
+  \relative c'' {
+    \clef treble
+    \time 4/4
+    \key a \major
+    \partial 4
+    c e | f2 e4 c | b2. a8 b |    
+  } 
+}
 
+\markup { Sweet Nell }
 \score {
   \relative c' {
     \clef treble
-    \time 3/4
-    \key c \major
-    c d e  f g a  b c d  e f g    
+    \time 4/4
+    \key a \major
+    e4 a a8 b c a | b c d b c2 |
+  } 
+}
+
+\markup { Sweet Nell }
+\score {
+  \relative c' {
+    \clef treble
+    \time 4/4
+    \key a \major
+    e4 a a8 b c a | b c d b c2 |
   } 
 }
