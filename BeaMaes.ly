@@ -2,7 +2,21 @@
   title = "Bea Mae's"
   composer = "Trad"
 }
-
+chordmusic = \relative {
+  <c' e g>2 <f bes c>
+  <f c' e g>1
+  \chordmode {
+    c2 f:sus4 c1:/f
+  }
+}
+<<
+  \new ChordNames {
+    \chordmusic
+  }
+  {
+    \chordmusic
+  }
+>>
 \score {
   \relative c' {
     \time 4/4
